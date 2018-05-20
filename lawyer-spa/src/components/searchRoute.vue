@@ -10,8 +10,9 @@
       <div class="main_search_wrapper">
         
           
-          <input v-model="term" type="search">
-          <input v-model="termtwo" type="search">
+          <input v-model="term" type="search" placeholder="Search for a Lawfirm">
+          in
+          <input v-model="termtwo" type="search" placeholder="Enter Zipcode">
           <button @click="search">Search</button>
       
       </div><!-- main_search_wrapper -->
@@ -93,7 +94,7 @@ export default {
 	methods:{
 		search:function() {
       this.searching = true;
-      axios.get('http://lawyers-directory.com/wp-json/wp/v2/lawfirm?search=' + this.term + '')
+      axios.get('http://lawyers-directory.com/wp-json/wp/v2/lawfirms?search=' + this.term + '')
       .then(response => {
         this.posts = response.data;
         this.noResults = this.posts.length === 0;
