@@ -22,11 +22,11 @@
       <span>Browse by:</span>
 
       <ul>
-        <li><a href="">City</a></li>
         <li><a href="">Practice Areas</a></li>
-        <li><a href="">Attorneys</a></li>
+        <li><a href="">Lawfirms</a></li>
+        <li><a href="">City</a></li>
         <li><a href="">State</a></li>
-        <li><a href="">County</a></li>
+        <li><a href="">Zip Code</a></li>
         
         <li><a href=""></a></li>
       </ul>
