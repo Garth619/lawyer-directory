@@ -21,11 +21,14 @@
       
       <span>Browse by:</span>
 
+      
+    
+
       <ul>
-        <li><a href="">Practice Areas</a></li>
+        <li><router-link to="/practice-areas">Practice Areas</router-link></li>
         <li><a href="">Lawfirms</a></li>
         <li><a href="">City</a></li>
-        <li><a href="">State</a></li>
+        <li><router-link to="/states">State</router-link></li>
         <li><a href="">Zip Code</a></li>
         
         <li><a href=""></a></li>
