@@ -1,9 +1,13 @@
 <template>
   <div>
     
+<router-link to="/">Home</router-link>
+
     <div v-for="browsestate in browsestates" :key="browsestate.id">
 
       <h1 v-html="browsestate.name"></h1>
+
+      <span>{{browsestate.id}}</span>
 
     </div>
 

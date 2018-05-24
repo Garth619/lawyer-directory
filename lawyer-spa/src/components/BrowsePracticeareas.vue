@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+
+      <router-link to="/">Home</router-link>
     
     <div v-for="browsepracticearea in browsepracticeareas" :key="browsepracticearea.id">
 
